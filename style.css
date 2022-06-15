@@ -172,7 +172,8 @@ h4 {
 }
 
 .row>.col {
-	padding: 15% 2%
+	padding: 15% 2%;
+	box-sizing: content-box;
 }
 
 .col>ul {}
@@ -218,9 +219,21 @@ h1 {
 #sec,
 #thi {
 	height: 7vh;
+	margin: -1px 0;
 }
 
 section {
 	min-height: 100vh;
-	padding-bottom: 0 !important;
+	padding-bottom: 0;
+}
+
+.work-img>img {
+	width: 20vw;
+	border-radius: 5%;
+	display: block;
+	margin: auto;
+}
+
+.work-img {
+	height: 25vw;
 }
